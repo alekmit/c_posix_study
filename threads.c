@@ -74,6 +74,6 @@ int main(int argc, char **argv)
     pthread_create(&thread1, 0, &client_task, 0);
     pthread_join(thread0, 0);
     pthread_join(thread1, 0);
-	return 0;
+    return 0;
 }
 
